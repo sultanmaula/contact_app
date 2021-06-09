@@ -39,7 +39,7 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <section id="wrapper" class="login-register login-sidebar" style="background-image:url({{URL::asset('assets')}}/images/background/blog4.jpg);">
+    <section id="wrapper" class="login-register login-sidebar" style="background-color: #29B505;">
         <div class="login-box card">
             <div class="card-body">
                 <form class="form-horizontal form-material text-center" id="loginform" method="post" action="{{route('login')}}">@csrf
